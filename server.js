@@ -28,5 +28,5 @@ if ( process.env.NODE_ENV === 'production' ) {
     })
 }
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT_BACKEND;
 app.listen(PORT);
